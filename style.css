@@ -1,0 +1,11 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(./images/coffee.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  font-family: consolas !important;
+  color: #fff !important;
+  background-position: center;
+}
