@@ -3,8 +3,7 @@ body {
   overflow: hidden;
   background-image: url(./images/coffee.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed;
+  background-size: cover;
   font-family: consolas !important;
   color: #fff !important;
   background-position: center;
