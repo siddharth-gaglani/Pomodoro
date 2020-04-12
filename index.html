@@ -14,55 +14,62 @@
 </head>
 
 <body>
-  <section class="py-4">
+  <section class="py-5 py-md-4">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-12">
-          <h1 class="text-heading text-center">PomoDoro</h1>
+          <h1 class="text-heading text-center mb-4">PomoDoro</h1>
           <div class="row">
             <div class="col-lg-12">
-              <div class="mb-5" id="time">
+              <div class="my-4 mb-md-4 mt-md-0" id="time">
                 <!-- <h2 id="sessionTime text-left">Session Time</h2> -->
-                <div class="d-flex">
-                  <a href="" class="btn btn-outline-light mr-4" id="reset">Reset</a>
-                  <a href="" class="btn btn-outline-light" id="start">Start</a>
+                <div class="d-flex justify-content-center justify-content-md-start">
+                  <a href="" class="btn btn-outline-light mr-4 reset-button" id="reset">Reset</a>
+                  <a href="" class="btn btn-outline-light start-button" id="start">Start</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 text-left">
+
+            <div class="col-lg-6 my-5 text-md-left text-center">
               <div>
-                <h2 id="timeTypeWork" class="text-left"></h2>
-                <h6 id="workTime">
+                <h2 id="timeTypeWork" class=""></h2>
+                <h6 id="workTime" class="mb-4">
                   Work Time(in minutes)
                 </h6>
               </div>
-              <div class="minus my-3">
-                <a href="" class="btn btn-outline-light" id="minus5clock">-</a>
-              </div>
-              <div>
-                <h4 id="num" class="">5</h4>
-              </div>
-              <div class="plus my-3">
-                <a href="" class="btn btn-outline-light" id="plus5clock">+</a>
-              </div>
-            </div>
-            <div class="col-lg-6 text-right">
-              <div>
-                <h2 id="timeTypeBreak" class="text-right"></h2>
-                <h6 id="breakTime">Break Time(in minutes)</h6>
-              </div>
-              <div class="minus my-3">
-                <a href="" class="btn btn-outline-light" id="minus5break">-</a>
-              </div>
-              <div>
-                <h4 id="breakNum">5</h4>
-              </div>
-              <div class="plus my-3">
-                <a href="" class="btn btn-outline-light" id="plus5break">+</a>
+              <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                <div class="minus">
+                  <a href="" class="btn btn-outline-light" id="minus5clock">-</a>
+                </div>
+                <div class="mx-3">
+                  <h4 id="num" class="m-0">5</h4>
+                </div>
+                <div class="plus">
+                  <a href="" class="btn btn-outline-light" id="plus5clock">+</a>
+                </div>
               </div>
             </div>
+
+            <div class="col-lg-6 my-4 my-md-5 text-center text-md-right">
+              <div>
+                <h2 id="timeTypeBreak" class="text-md-right text-center"></h2>
+                <h6 id="breakTime" class="mb-4">Break Time(in minutes)</h6>
+              </div>
+              <div class="d-flex align-items-center justify-content-center justify-content-md-end">
+                <div class="minus">
+                  <a href="" class="btn btn-outline-light" id="minus5break">-</a>
+                </div>
+                <div class="mx-3">
+                  <h4 id="breakNum" class="m-0">5</h4>
+                </div>
+                <div class="plus">
+                  <a href="" class="btn btn-outline-light" id="plus5break">+</a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

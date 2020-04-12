@@ -8,3 +8,19 @@ body {
   color: #fff !important;
   background-position: center;
 }
+
+@media only screen and (max-width:576px) {
+  body {
+    background-image: none;
+    background-color: #000 !important;
+  }
+
+  .start-button {
+    justify-content: center !important;
+  }
+
+  .reset-button {
+    justify-content: center !important;
+
+  }
+}
